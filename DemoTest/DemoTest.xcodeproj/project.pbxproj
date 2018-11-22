@@ -15,6 +15,7 @@
 		3F1800D421A6A5AE00BCA8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1800D221A6A5AE00BCA8E1 /* LaunchScreen.storyboard */; };
 		3F1800DF21A6A5AE00BCA8E1 /* DemoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1800DE21A6A5AE00BCA8E1 /* DemoTestTests.swift */; };
 		3F1800EA21A6A5AE00BCA8E1 /* DemoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1800E921A6A5AE00BCA8E1 /* DemoTestUITests.swift */; };
+		3F18010021A6AA9600BCA8E1 /* AboutNewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1800FF21A6AA9600BCA8E1 /* AboutNewsFeedViewController.swift */; };
 		964F63DE70195461FC5DFEBF /* Pods_DemoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A4947235143BBB85940CC /* Pods_DemoTestTests.framework */; };
 		B98C9AFC010144D274C918DB /* Pods_DemoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC58121DEE6D83231BFBF09 /* Pods_DemoTestUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		3F1800E521A6A5AE00BCA8E1 /* DemoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1800E921A6A5AE00BCA8E1 /* DemoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTestUITests.swift; sourceTree = "<group>"; };
 		3F1800EB21A6A5AE00BCA8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1800FF21A6AA9600BCA8E1 /* AboutNewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutNewsFeedViewController.swift; sourceTree = "<group>"; };
 		43037C3F65A39D3A6A5692C5 /* Pods-DemoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTestUITests/Pods-DemoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5EC58121DEE6D83231BFBF09 /* Pods_DemoTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3449DB7CB42A19BACEC051E /* Pods-DemoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTestTests/Pods-DemoTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,12 @@
 		3F1800C821A6A5A300BCA8E1 /* DemoTest */ = {
 			isa = PBXGroup;
 			children = (
+				3F1800F721A6AA3000BCA8E1 /* Controllers */,
+				3F1800F821A6AA3000BCA8E1 /* Models */,
+				3F1800FC21A6AA3100BCA8E1 /* Services */,
+				3F1800FD21A6AA3100BCA8E1 /* SupportingFiles */,
+				3F1800F921A6AA3000BCA8E1 /* ViewModels */,
+				3F1800FA21A6AA3100BCA8E1 /* Views */,
 				3F1800C921A6A5A300BCA8E1 /* AppDelegate.swift */,
 				3F1800CB21A6A5A300BCA8E1 /* ViewController.swift */,
 				3F1800CD21A6A5A300BCA8E1 /* Main.storyboard */,
@@ -140,6 +148,65 @@
 				3F1800EB21A6A5AE00BCA8E1 /* Info.plist */,
 			);
 			path = DemoTestUITests;
+			sourceTree = "<group>";
+		};
+		3F1800F721A6AA3000BCA8E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F1800FF21A6AA9600BCA8E1 /* AboutNewsFeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F1800F821A6AA3000BCA8E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F1800F921A6AA3000BCA8E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F1800FA21A6AA3100BCA8E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F1800FB21A6AA3100BCA8E1 /* CollectionView Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F1800FB21A6AA3100BCA8E1 /* CollectionView Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CollectionView Cell";
+			sourceTree = "<group>";
+		};
+		3F1800FC21A6AA3100BCA8E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F1800FD21A6AA3100BCA8E1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3F1800FE21A6AA3100BCA8E1 /* UtilityFiles */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3F1800FE21A6AA3100BCA8E1 /* UtilityFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UtilityFiles;
 			sourceTree = "<group>";
 		};
 		A002945BC7B6CA65DD580361 /* Pods */ = {
@@ -395,6 +462,7 @@
 			files = (
 				3F1800CC21A6A5A300BCA8E1 /* ViewController.swift in Sources */,
 				3F1800CA21A6A5A300BCA8E1 /* AppDelegate.swift in Sources */,
+				3F18010021A6AA9600BCA8E1 /* AboutNewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
