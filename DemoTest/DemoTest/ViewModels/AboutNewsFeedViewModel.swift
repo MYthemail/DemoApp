@@ -31,6 +31,7 @@ class AboutNewsFeedViewModel {
 				let response = self.convertToDictionary(text: result as! String)
 				if let responseData = response!["results"], responseData is [[String: Any]]{
 					let responseDictionary = responseData as! [[String : Any]]
+					print(responseDictionary)
 					for newsFeed in responseDictionary {
 						if let news = NewsFeed(data: newsFeed) {
 							self.aboutNewsDatas.append(news)
