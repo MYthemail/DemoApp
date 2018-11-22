@@ -1,0 +1,22 @@
+PODS:
+  - RappleProgressHUD (2.4.1)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+
+DEPENDENCIES:
+  - RappleProgressHUD
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RappleProgressHUD
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  RappleProgressHUD: 1d97178abc04ea9e89e4df74227064ded389ce24
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+
+PODFILE CHECKSUM: 0527bb49021173ef7c8c53057b161b90e4b2a3fd
+
+COCOAPODS: 1.5.3
